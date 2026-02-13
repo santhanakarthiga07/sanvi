@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine ❤️</title>
+  <link rel="stylesheet" href="vale.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- STEP 1 -->
+    <div id="step1">
+      <h1>Hey pattuuu!!❤️</h1>
+      <p>Do you love me?</p>
+      <button class="yes" onclick="goToStep2()">Yes 💖</button>
+      <button class="no" id="noBtn" onmouseover="moveNo()">No 💔</button>
+    </div>
+
+    <!-- STEP 2 -->
+    <div id="step2" class="hidden">
+      <h1>Our Favourite Memories 🥹</h1>
+      <p>Every moment with you is special to me ❤️</p>
+
+      <div class="polaroid-gallery">
+
+        <div class="polaroid">
+          <img src="hi.jpeg" alt="Memory 1">
+          <p>That Perfect Day 🥹🌼</p>
+        </div>
+
+        <div class="polaroid">
+          <img src="me.jpeg" alt="Memory 2">
+          <p>My Favourite Smile 💛</p>
+        </div>
+
+      </div>
+
+      <button class="yes" onclick="goToStep3()">Next 💕</button>
+    </div>
+
+    <!-- STEP 3 -->
+    <div id="step3" class="hidden">
+      <h1> You are strictly mine!You’re mine, and I’m not going anywhere. </h1>
+      <p>Will you be my Valentine babyyy?</p>
+      <button class="yes" onclick="finalYes()">Yes 💖</button>
+      <button class="yes" onclick="finalYes()">Always 💍</button>
+  </div>
+
+    <!-- STEP 4 -->
+    <div id="step4" class="hidden">
+      <h1>YOU ARE STRICTLY MINE</h1>
+      <p>You are mine and only mine. I don’t share what belongs to my heart.
+      You are my comfort, my happiness, my safe place.
+      I choose you every single day, and I’ll protect what is mine.
+      You are stuck with me forever. 💜</p>
+      <p>Love you soo much darling!!</p>
+    </div>
+
+    <!-- FINAL -->
+    <div id="final" class="hidden">
+      <h1>Heyy thangapullaa!!</h1>
+      <p>You are officially my Valentine ❤️</p>
+      <p>You’re mine, and I’m not going anywhere. You’re stuck with me for life. 🤍</p>
+      <p>Forever & Always 💞</p>
+    </div>
+
+  </div>
+
+  <script src="vale.js"></script>
+</body>
+</html>
